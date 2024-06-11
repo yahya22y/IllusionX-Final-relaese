@@ -1,0 +1,44 @@
+name: IllusionX
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  http: ^0.13.3
+  connectivity: ^3.0.6
+  flutter_localizations: 
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  smooth_page_indicator: ^1.1.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ILX.png"
+  min_sdk_android: 21
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Futura
+      fonts: 
+        - asset: assets/fonts/Futura Heavy font.ttf
+          weight: 700
+        - asset: assets/fonts/futura light bt.ttf
+          weight: 400
+        - asset: assets/fonts/futura medium bt.ttf
+          weight: 500
